@@ -34,7 +34,7 @@ bankAccount:{
 }
 })
 
-const Client=mongoose.model('client',schema)
+const Client=mongoose.model('Client',schema)
 
 function validating(genre){
     const schema=Joi.object({

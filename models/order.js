@@ -12,8 +12,14 @@ shippingAddress:{
 },
 city:{
     type:String
-}
+},
+userId: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'User',
+    required: true 
+},
+
 })
 
-const Order=mongoose.model('order',orderSchema);
+const Order=mongoose.model('Order',orderSchema);
 exports.Order=Order;

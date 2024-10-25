@@ -42,5 +42,5 @@ const restProfileSchema= new mongoose.Schema({
 
 }) 
 
-const Rest=mongoose.model('restProfile',restProfileSchema)
+const Rest=mongoose.model('RestProfile',restProfileSchema)
 exports.Rest=Rest
